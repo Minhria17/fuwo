@@ -1,0 +1,378 @@
+/* body{margin:0;height:100%;} */
+#canvas{
+    min-height: 60vh;
+    position: absolute;
+    /* top:0;left:0; */
+    z-index:1;
+    background-image: linear-gradient(bottom, #008060, #A8E139);
+    background-image: -o-linear-gradient(bottom, #008060, #A8E139);
+    background-image: -moz-linear-gradient(bottom, #008060, #A8E139);
+    background-image: -webkit-linear-gradient(bottom, #008060, #A8E139);
+    background-image: -ms-linear-gradient(bottom, #008060, #A8E139);
+    
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #008060),
+        color-stop(0.9, #002d2d)
+    );
+}
+.banner_slogan {
+    position: relative;
+    z-index: 3;
+    min-height: 60vh;
+    padding: 10% 30%;
+    text-align: center;
+    /* background-color: #A8E139; */
+}
+.banner_slogan h1{
+    font-size: 2.93em;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.banner_slogan span{
+    font-size: 18px;
+    line-height: 1.86;
+    font-weight: 300;
+}
+.banner_slogan .info_contact{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 24%;
+}
+.banner_slogan .info_contact a{
+    background-image: linear-gradient(to right, #008060 0%, #A8E139 100%);
+    transition: all 0.5s;
+    border-radius: 40px;
+    min-width: 110px;
+    color: #fff;
+}
+.banner_slogan .info_contact a:hover{
+    background-image: linear-gradient(to right, #A8E139 0%, #008060 100%);
+}
+
+.introduce {
+    position: relative;
+    z-index: 3;
+    min-height: 40vh;
+    padding: 6% 9%;
+    background-color: #002d2d;
+    display: flex;
+    justify-content: space-evenly;
+}
+.introduce .video, .introduce .content{
+    width: 50%;
+}
+.introduce .video img{
+    height: auto;
+    max-width: 80%;
+    vertical-align: top;
+}
+.introduce .content{
+    /* padding: 0% 5%; */
+}
+.introduce .content h3{
+    font-family: inherit;
+    line-height: 1.33;
+    font-weight: 600;
+    font-size: 1.07em;
+    color: #A8E139;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.introduce .content h2{
+    font-size: 2.4em;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+    text-align: center;
+}
+.introduce .content span{
+    line-height: 1.86;
+    font-weight: 300;
+}
+.team h3{
+    font-family: inherit;
+    line-height: 1.33;
+    font-weight: 600;
+    font-size: 1.07em;
+    color: #A8E139;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.team h2{
+    font-size: 2.4em;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+    text-align: center;
+}
+.team .content span{
+    line-height: 1.86;
+    font-weight: 300;
+}
+.team {
+    position: relative;
+    z-index: 3;
+    min-height: 50vh;
+    padding: 6% 9%;
+    background-color: #008060;
+}
+.team .content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.team .content .image, .team .content .text{
+    width: 50%;
+}
+.team .content .image img{
+    height: auto;
+    max-width: 80%;
+    vertical-align: top;
+}
+.features {
+    position: relative;
+    z-index: 3;
+    min-height: 70vh;
+    padding: 6% 25%;
+    background-color: #002d2d;
+    text-align: center;
+}
+.container h3{
+    font-family: inherit;
+    line-height: 1.33;
+    font-weight: 600;
+    font-size: 1.07em;
+    color: #A8E139;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.container h2{
+    font-size: 2.4em;
+    letter-spacing: -0.01em;
+    margin: 0 0 18px;
+    text-align: center;
+}
+.features .content span{
+    line-height: 1.86;
+    font-weight: 300;
+}
+.features .content img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    margin-top: 10%;
+}
+.benifit {
+    position: relative;
+    z-index: 3;
+    min-height: 70vh;
+    padding: 6% 9%;
+    background-color: #008060;
+}
+.benifit .content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.benifit .content .box{
+    display: flex;
+    padding: 4%;
+}
+.benifit .content .box .icon{
+    margin-right: 8%;
+}
+.benifit .content .box .icon i::before{
+    font-size: 40px;
+}
+.benifit .content .box h4{
+    margin-bottom: 8px;
+    font-size: 1.33em;
+    line-height: 1.33;
+    font-weight: 600;
+    margin-top: 0;
+}
+.benifit .content .box span{
+    font-size: 1em;
+    line-height: 1.86;
+    font-weight: 300;
+}
+.roadmap {
+    position: relative;
+    z-index: 3;
+    min-height: 80vh;
+    padding: 6% 9%;
+    background-color: #002d2d;
+}
+.roadmap img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.system {
+    position: relative;
+    z-index: 3;
+    min-height: 80vh;
+    padding: 6% 9%;
+    background-color: #008060;
+}
+.system .content{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+.system .content img{
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.system .content .block .image img{
+    border-radius: 10px 10px 0px 0px;
+}
+.system .content .block .text{
+    padding: 3% 15%;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    background-image: linear-gradient(to right, #A8E139 0%, #008060 100%);
+}
+.system .content .block .text h5{
+    font-weight: 400;
+    font-size: 1.33em;
+}
+.system .content .block .text:hover{
+    padding: 3% 15%;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    background: #A8E139;
+    transform: translateY(-8px);
+}
+.system .content .block{
+    margin-bottom: 15%;
+}
+
+
+.statistical {
+    position: relative;
+    z-index: 3;
+    min-height: 100vh;
+    padding: 4% 9%;
+    background-color: #002d2d;
+    text-align: center;
+}
+.statistical .total{
+    padding: 2% 20%;
+}
+.statistical .contact .icon_contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 35%;
+}
+.statistical .contact .icon_contact a{
+    font-size: 20px;
+    color: #fff;
+}
+.statistical .contact .icon_contact a:hover{
+    color: #A8E139;
+}
+
+
+
+
+@media only screen and (max-width: 1025px){
+    .banner_slogan {
+        padding: 10% 17%;
+    }
+}
+@media only screen and (max-width: 991px){
+    body{
+        font-size: 14px;
+    }
+    .banner_slogan {
+        min-height: 560px;
+    }
+    .banner_slogan {
+        padding: 10% 10%;
+    }
+    .introduce {
+        display: block;
+    }
+    .introduce .video, .introduce .content {
+        width: 100%;
+        text-align: center;
+    }
+    .features {
+        padding: 6% 10%;
+    }
+    .container h3 {
+        font-size: 14px !important;
+    }
+    .container h2 {
+        font-size: 32px !important;
+    }
+    .team .content {
+        display: block;
+        text-align: center;
+    }
+    .team .content .image, .team .content .text {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    body{
+        font-size: 12px;
+    }
+    .container h3 {
+        font-size: 12px !important;
+    }
+    .container h2 {
+        font-size: 28px !important;
+    }
+    #canvas {
+        width: 100%;
+        height: auto;
+    }
+    .banner_slogan h1 {
+        font-size: 1.93em;
+    }
+    .banner_slogan span {
+        font-size: 14px;
+    }
+    .banner_slogan .info_contact {
+        font-size: 11px;
+        line-height: 35px;
+        padding: 4% 5%;
+    }
+    .banner_slogan {
+        padding: 26% 10%;
+    }
+    .banner_slogan {
+        min-height: 50vh;
+    }
+    .benifit .content {
+        display: block;
+    }
+    .roadmap {
+        min-height: 40vh;
+    }
+    .system .content {
+        display: block;
+    }
+    .system .content .block {
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .statistical .total {
+        padding: 2% 0%;
+    }
+    .statistical .contact .icon_contact {
+        padding: 0% 5%;
+    }
+    .statistical {
+        min-height: 80vh;
+    }
+}
